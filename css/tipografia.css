@@ -1,0 +1,35 @@
+.font-xxl{
+    font-family: Roboto;
+    font-size: 5rem;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.font-xl{
+    font-family: Roboto;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.font-l{
+    font-family: Roboto;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.font-m{
+    font-family: Roboto;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+
+

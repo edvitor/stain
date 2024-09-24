@@ -1,0 +1,45 @@
+.offcanvas-content{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-left: var(--primaria) solid 2px;
+    padding-left: 16px;
+}
+
+.offcanvas-social{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.offcanvas-social a{
+    text-decoration: none;
+    padding: 8px 14px;
+    border-radius: 100px;
+    background: var(--primaria);
+    color: #F9F8F6;
+    font-size: 1.3rem;
+    box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.20);
+    transition: 0.3s;
+}
+
+.offcanvas-social a:hover{
+    background: var(--primaria-2);
+    color: #212121 ;
+}
+
+
+@media (max-width:993px){
+    .offcanvas-content{
+        display: flex;
+        flex-direction: row;
+        margin-top: 10px;
+        border-left: none;
+        padding-left: none;
+    }
+
+    .offcanvas-body {
+        padding: 0;
+    }
+}
+

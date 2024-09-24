@@ -1,0 +1,32 @@
+.cases-content{
+    padding-top: 80px;
+    padding-bottom: 80px;
+
+}
+.case-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    padding: 40px 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #fff;
+}
+
+.case-item img{
+    width: 50px;
+    height: auto;
+}
+
+.slide-for{
+    width: 200px;
+    background: #fff;
+}
+
+
+.case-slide{
+    padding: 40px;
+    border-radius: 4px;
+    background-color: #fff;
+}
