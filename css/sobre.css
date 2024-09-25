@@ -1,0 +1,17 @@
+.sobre-texto{
+    padding-left: 20px;
+}
+
+.sobre-texto h1{
+    margin-bottom: 40px;
+    border-left: 4px solid var(--primaria);
+    padding-left: 20px;
+}
+
+.sobre-detail{
+    rotate: 270deg;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -2;
+}

@@ -4,8 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <!-- FAVICON -->
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="./assets/img/favicon/site.webmanifest">
+    <link rel="mask-icon" href="./assets/img/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+
     <link rel="stylesheet" href="./css/style.css">
-    <title>Stain</title>
+    <title>STAIN</title>
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
 
     <!-- FONT AWESOME -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
@@ -94,25 +109,20 @@
     </nav>
 
     <!-- Masthead-->
-    <header class="masthead intro-bg" id="home">
+    <header class="masthead bg" id="home">
 
-        <div class="intro-content container px-4 px-lg-5 h-100">
-            <div class="row gx-4 gx-lg-5 h-100 align-items-center justify-content-center text-left reveal-txt">
+        <div class="container px-4 px-lg-5 h-100">
+            <div class="row gx-4 gx-lg-5 h-100 align-items-center justify-content-center text-left introducao">
                 <div class="align-self-end intro-titulo">
                     <span class="text-detail"></span>
-                    <h1 class="font-xxl">Transformando Desafios Reais em Cases de Sucesso</h1>
+                    <h1 class="font-xxl reveal-txt">Transformando desafios reais em  <span class="marker-primary-2">Cases de Sucesso</span></h1>
                 </div>
-                <div class="intro-desc align-self-baseline">
-                    <p class="font-m text-black-2" style="margin-top: 20px;">Com a Stain, veja como empresas superaram desafios através de nossa consultoria especializada, estratégias precisas e soluções tecnológicas personalizadas, alcançando resultados comprovados.</p>
+                <div class="intro-desc align-self-baseline reveal-txt">
+                    <p class="font-l-2 text-black-2 reveal-txt" style="margin-top: 20px;">Com a Stain, veja como empresas superaram desafios através de nossa consultoria especializada, estratégias precisas e soluções tecnológicas personalizadas, alcançando resultados comprovados.</p>
                         <button class="intro-btn">
-                            <a class="font-m text-white" href="">Fale com um Consultor</a>
+                            <a class="font-m-b" href="">Fale com um Consultor<i class="fa-solid fa-up-right-from-square"></i></a>
                         </button>
                 </div>
-            </div>
-            
-            <!-- IMAGEM -->
-            <div class="intro-img reveal-img">
-                <img src="assets/img/intro-img.jpg" alt="">
             </div>
             
             <!-- DETAILHES -->
@@ -122,65 +132,211 @@
         </div>
     </header>
 
+    <!-- CASES CONTENT -->
     <section class="bg-secondary" id="cases">
         <div class="container cases-content">
-            <h1 class="text-white font-xl">Nossos Cases</h1>
+                <div class="cases-titulo">
+                    <h2 class="text-white font-xl">Nossos Cases</h2>
+                </div>
             <p class="text-white font-m">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam rutrum lorem vel nibh mattis, non consequat ex aliquet. Etiam accumsan erat nulla, eu congue metus cursus ac. Aliquam at tortor aliquam, sodales lacus in, aliquam arcu. Suspendisse sed blandit felis. Praesent lectus neque, viverra vitae gravida quis, ultricies ut orci.</p>
 
             <div class="cases-carrossel">
                 
                 <div class="slider-nav">
+                    
+                    <!-- CASE1 -->
                     <div>
-                        <div class="case-item">
-                            <i class="fa-solid fa-link"></i><span>1</span>
-                        </div>
-                    </div>
+                        <div class="d-flex flex-column case-item justify-content-between">
+                            
+                            <div class="d-flex gap-3 align-items-center">
+                                <i class="fas fa-users-cog fs-3"></i>
+                                <div>
+                                    <h1 class="font-m-b m-0 border-start border-2 border-primary ps-2 text-wrap">Reestruturação Organizacional</h1>
+                                </div>
+                            </div>
 
-                    <div>
-                        <div class="case-item">
-                            <i class="fa-solid fa-link"></i><span>2</span>
-                        </div>
-                    </div>
+                            <div class="d-block">
+                                <p class="font-pp mt-4 text-black-2">Desenvolvimento de um plano de reestruturação que otimize fluxos de trabalho e fortaleça a governança corporativa.</p>
+                            </div>
 
-                    <div>
-                        <div class="case-item">
-                            <i class="fa-solid fa-link"></i><span>3</span>
+                            <div class="d-flex align-items-end justify-content-end">
+                                <button class="cases-btn" data-bs-toggle="modal" data-bs-target="#case1">
+                                    <a class="font-pp text-white">Veja mais</a>
+                                </button>
+                            </div>
+                            
                         </div>
                     </div>
+                    <!-- FIM CASE1 -->
 
+                    <!-- CASE2 -->
                     <div>
-                        <div class="case-item">
-                            <i class="fa-solid fa-link"></i><span>4</span>
+                        <div class="d-flex flex-column case-item justify-content-between">
+                            <div class="d-flex gap-3 align-items-center">
+                                <i class="fas fa-shield-alt fs-3"></i>
+                                <div>
+                                    <h1 class="font-m-b m-0 border-start border-2 border-primary ps-2 text-wrap">Gestão de Riscos</h1>
+                                </div>
+                            </div>
+
+                            <div class="d-block">
+                                <p class="font-pp mt-4 text-black-2">Implementação de ferramentas de gestão de riscos, incluindo a criação de matrizes SoD (Segregation of Duties) e auditorias internas.</p>
+                            </div>
+
+                            <div class="d-flex align-items-end justify-content-end">
+                                <button class="cases-btn">
+                                    <a class="font-pp text-white">Veja mais</a>
+                                </button>
+                            </div>
+                            
                         </div>
                     </div>
+                    <!-- FIM CASE2 -->
+
+                    <!-- CASE3 -->
+                    <div>
+                        <div class="d-flex flex-column case-item justify-content-between">
+                            <div class="d-flex gap-3 align-items-center">
+                                <i class="fas fa-gavel fs-3"></i>
+                                <div>
+                                    <h1 class="font-m-b m-0 border-start border-2 border-primary ps-2 text-wrap">Adaptação às Mudanças Regulamentares</h1>
+                                </div>
+                            </div>
+
+                            <div class="d-block">
+                                <p class="font-pp mt-4 text-black-2">Desenvolvimento de uma estratégia contínua de conformidade para assegurar que a empresa esteja sempre atualizada com as normas vigentes.</p>
+                            </div>
+
+                            <div class="d-flex align-items-end justify-content-end">
+                                <button class="cases-btn">
+                                    <a class="font-pp text-white">Veja mais</a>
+                                </button>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <!-- FIM CASE3 -->
+                    
+                    <!-- CASE4 -->
+                    <div>
+                        <div class="d-flex flex-column case-item justify-content-between">
+                            <div class="d-flex gap-3 align-items-center">
+                                <i class="fas fa-robot fs-3"></i>
+                                <div>
+                                    <h1 class="font-m-b m-0 border-start border-2 border-primary ps-2 text-wrap">Transformação Digital</h1>
+                                </div>
+                            </div>
+
+                            <div class="d-block">
+                                <p class="font-pp mt-4 text-black-2">Automação de processos críticos e implementação de inteligência artificial aplicada ao gerenciamento e análise de dados.</p>
+                            </div>
+
+                            <div class="d-flex align-items-end justify-content-end">
+                                <button class="cases-btn">
+                                    <a class="font-pp text-white">Veja mais</a>
+                                </button>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <!-- FIM CASE4 -->
  
  
                 </div>
-
-                
-                <div class="slider-for">
-                    <div class="case-slide">
-                        <h1>CASE 1</h1>
-                    </div>
-
-                    <div class="case-slide">
-                        <h1>CASE 2</h1>
-                    </div>
-
-                    <div class="case-slide">
-                        <h1>CASE 3</h1>
-                    </div>
-
-                    <div class="case-slide">
-                        <h1>CASE 4</h1>
-                    </div>
-                </div>
-
             </div>
 
         </div>
     </section>
+    <!-- FIM CASES -->
+
+     <!-- MODAL CASE1 -->
+     <div class="modal fade" id="case1" tabindex="-1" aria-labelledby="case1Label" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            
+            <div class="modal-body">
+                <div class="d-flex flex-column justify-content-start">
+                            
+                    <div class="d-flex gap-3 align-items-center">
+                        <i class="fas fa-users-cog fs-2"></i>
+                        <div>
+                            <h1 class="font-l m-0 border-start border-2 border-primary ps-2 text-wrap">Reestruturação Organizacional</h1>
+                        </div>
+                    </div>
+
+                    <div class="d-block">
+                        <p class="font-m mt-4 text-black-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam rutrum lorem vel nibh mattis, non consequat ex aliquet. Etiam accumsan erat nulla, eu congue metus cursus ac.</p>
+                        
+                        <p class="font-m mb-4 text-black-2"><strong class="text-black">Objetivo: </strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+                        <p><strong>Funcionalidades:</strong></p>
+
+                        <ul>
+                            <li>Funcionalidade 1</li>
+                            <li>Funcionalidade 1</li>
+                            <li>Funcionalidade 1</li>
+                            <li>Funcionalidade 1</li>
+                        </ul>
+
+                        <p><strong>Resultados Alcançados:</strong></p>
+
+                        <ul>
+                            <li>Resultado 1</li>
+                            <li>Resultado 1</li>
+                            <li>Resultado 1</li>
+                            <li>Resultado 1</li>
+                        </ul>
+
+                    </div>
+                    
+                    <div class="d-flex mt-4 align-items-end justify-content-end">
+                        <button class="cases-btn">
+                            <a class="font-m text-white">Fale com um consultor<i class="fa-solid fa-up-right-from-square"></i></a>
+                        </button>
+                    </div>
+                    
+                </div>
+            </div>
+
+        </div>
+        </div>
+    </div>
+
+
+    <!-- SOBRE CONTENT -->
+    <section class="bg" id="sobre">
+        <div class="content container px-4 px-lg-5 align-items-center">
+            <div class="row gx-4 gx-lg-5 h-100 justify-content-center content-img">
+                <img src="assets/img/undraw_choice.svg" alt="">
+            </div>
+
+            <div class="gx-4 gx-lg-5 h-100 w-75 sobre-texto">
+                <h1 class="font-l-3">Exclusividade <span class="marker-primary-2">Stain</span></h1>
+                <p class="font-m">Na Stain, criamos soluções personalizadas que atendem às necessidades específicas de cada cliente. Com uma abordagem inovadora e tecnologias avançadas, ajudamos sua empresa a superar desafios e crescer com segurança.
+                <br><br>
+                Utilizamos metodologias avançadas e tecnologias de ponta para garantir que nossos clientes alcancem resultados superiores. Através da análise detalhada e do planejamento estratégico, ajudamos sua empresa a se destacar no mercado e superar expectativas.              
+                </p>
+
+                <button class="intro-btn">
+                    <a class="font-m-b" href="">Confira aqui<i class="fa-solid fa-up-right-from-square"></i></a>
+                </button>
+            </div>
+
+            <!-- SOBRE DETALHE -->
+            <img class="sobre-detail" src="assets/img/intro-detail.svg" alt="">
+
+        </div>
+        
+    </section>
+    <!-- FIM SOBRE -->
+
     
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="./js/reveal.js"></script>
+
     <!-- Bootstrap core JS-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" defer></script>
 
@@ -189,7 +345,9 @@
     <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 
-    <script src="js/script.js"></script>
+
+    <script src="./js/script.js"></script>
+
 
 </body>
 </html>

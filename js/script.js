@@ -49,20 +49,22 @@ window.addEventListener('DOMContentLoaded', event => {
 
 })
 
-
-
-$('.slider-for').slick({
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    arrows: false,
-    fade: true,
-    asNavFor: '.slider-nav'
-  });
   $('.slider-nav').slick({
     slidesToShow: 3,
     slidesToScroll: 1,
-    asNavFor: '.slider-for',
     dots: true,
     centerMode: true,
-    focusOnSelect: true
+    centerPadding: '60px',
+    focusOnSelect: true,
+    responsive: [
+        {
+          breakpoint: 1200,
+          settings: {
+            slidesToShow: 1,
+            dots: false,
+            arrows: false,
+            centerPadding: '30px' // Menos espaço em telas menores
+          }
+        }
+      ]
   });

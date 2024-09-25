@@ -3,30 +3,90 @@
     padding-bottom: 80px;
 
 }
-.case-item{
+
+.cases-titulo{
     display: flex;
-    justify-content: center;
-    align-items: center;
+    margin-bottom: 20px;
+}
+
+.cases-titulo h2{
+    border-bottom: 2px solid var(--primaria);
+    text-align: left;
+}
+
+.cases-content p{
+    margin-bottom: 20px;
+}
+
+.case-item{
+    height: 260px;
     border-radius: 4px;
-    padding: 40px 20px;
-    margin-left: 10px;
-    margin-right: 10px;
     background-color: #fff;
+    padding: 20px
 }
 
 .case-item img{
-    width: 50px;
+    width: 200px;
     height: auto;
 }
-
-.slide-for{
-    width: 200px;
-    background: #fff;
-}
-
 
 .case-slide{
     padding: 40px;
     border-radius: 4px;
     background-color: #fff;
 }
+
+
+.cases-btn{
+    outline: none;
+    border: none;
+    background: var(--primaria);
+    padding: 5px 10px;
+    border-radius: 4px;
+    transition: 0.3s;
+}
+
+.cases-btn:hover{
+    background: var(--primaria-3);
+}
+
+.cases-btn i{
+    margin-left: 5px;
+}
+
+/* SLICK JS */
+
+.slick-track{
+    margin: 80px 0;
+}
+
+.slide-for{
+    background: #fff;
+}
+
+.slick-slide {
+    transition: transform 0.3s ease;
+    margin: 0 30px;
+}
+  
+.slick-center {
+transform: scale(1.2); 
+z-index: 1;
+}
+  
+.slick-list {
+padding: 0 15px;
+}
+
+
+.slick-dots li button::before {
+    color: #fff !important; 
+    font-size: 8px !important; 
+    opacity: 0.5; /* Transparência das bolinhas inativas */
+  }
+  
+  /* Alterar a cor das bolinhas ativas */
+  .slick-dots li.slick-active button::before {
+    color: #fff !important; /* Cor da bolinha ativa */
+    opacity: 1; /* Transparência da bolinha ativa */
+  }
