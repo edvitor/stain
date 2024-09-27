@@ -5,6 +5,7 @@
 @import url(sidebar.css);
 @import url(cases.css);
 @import url(sobre.css);
+@import url(faq.css);
 
 :root{  
     --primaria: #B98A58;
@@ -17,9 +18,16 @@
     background: var(--preto-gradient, linear-gradient(241deg, #303030 2.97%, #212121 41.4%, #292929 87.92%));
 }
 
+.bg-primary{
+    background: var(--primaria);
+}
 
 .text-primario{
     color: var(--primaria);
+}
+
+.text-primario-2{
+    color: var(--primaria-2);
 }
 
 .text-white{

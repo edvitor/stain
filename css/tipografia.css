@@ -30,7 +30,6 @@
     line-height: normal;
 }
 
-
 .font-l{
     font-family: 'Inter', sans-serif;
     font-size: 1.2rem;
@@ -71,8 +70,6 @@
     font-weight: 400;
     line-height: normal;
 }
-
-
 
 @media (max-width:993px){
     .font-xxl{

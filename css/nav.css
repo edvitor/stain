@@ -23,6 +23,9 @@
         box-shadow: none;
     }
 
+}
+
+@media (max-width: 991px){
     .nav-social{
         display: flex;
         flex-direction: row;

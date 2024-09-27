@@ -58,13 +58,13 @@ window.addEventListener('DOMContentLoaded', event => {
     focusOnSelect: true,
     responsive: [
         {
-          breakpoint: 1200,
-          settings: {
-            slidesToShow: 1,
-            dots: false,
-            arrows: false,
-            centerPadding: '30px' // Menos espaço em telas menores
+            breakpoint: 993,
+            settings: {
+              slidesToShow: 1,
+              dots: false,
+              arrows: false,
+              centerPadding: '30px' // Menos espaço em telas menores
+            }
           }
-        }
       ]
   });

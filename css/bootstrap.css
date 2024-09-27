@@ -467,23 +467,43 @@ progress {
   font-weight: 300;
 }
 
+/*** objetivo ***/
+.objetivo .nav .nav-link {
+  transition: .5s;
+  background: #fff;
+}
+
+.objetivo .nav .nav-link.active {
+  border-color: var(--primaria) !important;
+  background: var(--primaria);
+}
+
+.objetivo .nav .nav-link.active h5 {
+  color: #FFFFFF !important;
+}
+
+.objetivo .nav .nav-link.active h5 i {
+  color: #FFFFFF !important;
+}
+
 /*** Service ***/
-.service .nav .nav-link {
+.service-item {
+  box-shadow: 0 0 45px rgba(0, 0, 0, .08);
   transition: .5s;
 }
 
-.service .nav .nav-link.active {
-  border-color: var(--primary) !important;
-  background: var(--primary);
+.service-item:hover {
+  background: var(--primaria);
 }
 
-.service .nav .nav-link.active h5 {
-  color: #FFFFFF !important;
+.service-item * {
+  transition: .5s;
 }
 
-.service .nav .nav-link.active h5 i {
-  color: #FFFFFF !important;
+.service-item:hover * {
+  color: var(--light) !important;
 }
+
 
 .display-1 {
   font-size: calc(1.625rem + 4.5vw);
@@ -3703,7 +3723,7 @@ textarea.form-control-lg {
   padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
   font-size: var(--bs-nav-link-font-size);
   font-weight: var(--bs-nav-link-font-weight);
-  color: #0F2D49;
+  color: #000;
   text-decoration: none;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
 }
@@ -3713,7 +3733,7 @@ textarea.form-control-lg {
   }
 }
 .nav-link:hover, .nav-link:focus {
-  color: #B3A04C;
+  color: var(--primaria-3);
 }
 .nav-link.disabled {
   color: var(--bs-nav-link-disabled-color);
@@ -5239,7 +5259,7 @@ textarea.form-control-lg {
 }
 .btn-close:focus {
   outline: 0;
-  box-shadow: 0 0 0 0.25rem rgba(244, 98, 58, 0.25);
+  /* box-shadow: 0 0 0 0.25rem rgba(244, 98, 58, 0.25); */
   opacity: 1;
 }
 .btn-close:disabled, .btn-close.disabled {
@@ -8422,24 +8442,6 @@ textarea.form-control-lg {
   display: none;
 }
 
-
-/*** Service ***/
-.service-item {
-  box-shadow: 0 0 45px rgba(0, 0, 0, .08);
-  transition: .5s;
-}
-
-.service-item:hover {
-  background: var(--primary);
-}
-
-.service-item * {
-  transition: .5s;
-}
-
-.service-item:hover * {
-  color: var(--light) !important;
-}
 
 /*--------------------------------------------------------------
 # Faq Section

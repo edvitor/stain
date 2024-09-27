@@ -9,9 +9,27 @@
 }
 
 .sobre-detail{
-    rotate: 270deg;
+    rotate: 180deg;
     position: absolute;
-    bottom: 0;
-    right: 0;
     z-index: -2;
+    top: 0;
+    right: 0;
+}
+
+.objetivo-bg{
+    z-index: -2;
+    position: relative;
+}
+
+.objetivo-detail{
+    position: absolute;
+    z-index: -1;
+    bottom: 0;
+    left: 0;
+}
+
+@media (max-width: 993px){
+    .content-img{
+        display: none;
+    }
 }

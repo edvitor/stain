@@ -18,6 +18,9 @@
     <title>STAIN</title>
 
 
+    <!-- JQUERY -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" charset="utf-8"></script>
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
@@ -33,45 +36,6 @@
     
 </head>
 <body>
-    
-    <!-- MENU LATERAL -->
-    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
-        <div class="offcanvas-header">
-          <h5 class="offcanvas-title" id="offcanvasRightLabel"></h5>
-          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-        </div>
-
-        <div class="offcanvas-body">
-          <img src="assets/img/stain-logo.svg" alt="">
-            
-          <p style="margin-top: 40px;" class="text-black-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam rutrum lorem vel nibh mattis, non consequat ex aliquet.</p>
-
-            <div class="offcanvas-content">  
-                <div>
-                        <strong>Localização</strong>
-                        <p>Rio de Janeiro</p>
-                    </div>
-
-                    <div>
-                        <strong>Email</strong>
-                        <p>email@stain.com</p>
-                    </div>
-
-                    <div>
-                        <strong>Telefone</strong>
-                        <p>(00) 99999-9999</p>
-                    </div>
-            </div>
-
-            <div class="offcanvas-social">
-                <a href=""><i class="fa-brands fa-whatsapp"></i></a>
-                <a href=""><i class="fa-brands fa-instagram"></i></a>
-                <a href=""><i class="fa-brands fa-linkedin"></i></a>
-            </div>
-
-        </div>
-    </div>
-    <!-- FIM MENU LATERAL -->
 
     <!-- Navigation-->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
@@ -88,7 +52,7 @@
                     <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
                     <li class="nav-item"><a class="nav-link" href="#cases">Cases</a></li>
                     <li class="nav-item"><a class="nav-link" href="#sobre">Sobre</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#depoimentos">Depoimentos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#faq">FAQ</a></li>
                     <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
                     
                     <button class="btn botao-nav" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
@@ -293,7 +257,7 @@
                     </div>
                     
                     <div class="d-flex mt-4 align-items-end justify-content-end">
-                        <button class="cases-btn">
+                        <button class="cases-btn py-2">
                             <a class="font-m text-white">Fale com um consultor<i class="fa-solid fa-up-right-from-square"></i></a>
                         </button>
                     </div>
@@ -307,13 +271,13 @@
 
 
     <!-- SOBRE CONTENT -->
-    <section class="bg" id="sobre">
+    <section class="position-relative" id="sobre">
         <div class="content container px-4 px-lg-5 align-items-center">
-            <div class="row gx-4 gx-lg-5 h-100 justify-content-center content-img">
+            <div class="row gx-4 gx-lg-5 h-100 w-75 justify-content-center content-img">
                 <img src="assets/img/undraw_choice.svg" alt="">
             </div>
 
-            <div class="gx-4 gx-lg-5 h-100 w-75 sobre-texto">
+            <div class="d-flex flex-column gx-4 gx-lg-5 h-100 w-75 sobre-texto align-items-start justify-content-center">
                 <h1 class="font-l-3">Exclusividade <span class="marker-primary-2">Stain</span></h1>
                 <p class="font-m">Na Stain, criamos soluções personalizadas que atendem às necessidades específicas de cada cliente. Com uma abordagem inovadora e tecnologias avançadas, ajudamos sua empresa a superar desafios e crescer com segurança.
                 <br><br>
@@ -333,7 +297,255 @@
     </section>
     <!-- FIM SOBRE -->
 
+
+    <!-- OBJETIVOS -->
+    <section class="objetivo-bg" id="sobre">
+        <div class="container sobre-texto px-5" style="padding: 80px 0;">
+            
+            <div class="d-block">
+                <h1 class="font-l-3 mb-5">Principais <span class="marker-primary-2">Objetivos</span></h1>
+            </div>
+            <br>
+            <div class="row g-4 fadeInUp objetivo">
+
+                <div class="col-lg-4 mt-4 text-center">
+                    
+                    <h3 class="font-l-2 my-4">
+                        <i class="fas fa-compass me-2"></i><strong>Alinhamento Estratégico</strong>
+                    </h3>
+                    <p class="mb-4">Trabalhamos ao lado da sua empresa para identificar e alinhar suas metas de negócios com uma estratégia eficaz e personalizada.</p>
+                    <div class="col-md-6" style="width: 100%;height: 350px;">
+                        <div class="h-100">
+                            <img class="rounded w-100 h-100" src="assets/img/estrategia.jpg"
+                                style="object-fit: cover;" alt="">
+                        </div>
+                    </div>
+                    
+                </div>
+
+                <div class="col-lg-4 mt-4 text-center">
+                    
+                    <h3 class="font-l-2 my-4">
+                        <i class="fas fa-seedling me-2"></i><strong>Expansão Sustentável</strong>
+                    </h3>
+                    <p class="mb-4">Desenhamos soluções para ajudar a sua empresa a crescer de forma sustentável, minimizando riscos e maximizando oportunidades.</p>
+                    <div class="col-md-6" style="width: 100%;height: 350px;">
+                        <div class="h-100">
+                            <img class="rounded w-100 h-100" src="assets/img/intro-img.jpg"
+                            style="object-fit: cover;" alt="">
+                        </div>
+                    </div>
+                    
+                </div>
+
+                <div class="col-lg-4 mt-4 text-center">
+                    
+                    <h3 class="font-l-2 my-4">
+                        <i class="fas fa-cogs me-2"></i><strong>Otimização de Processos</strong>
+                    </h3>
+                    <p class="mb-4">Implementamos melhorias contínuas nos processos operacionais para aumentar a eficiência e competitividade do seu negócio.</p>
+                    <div class="col-md-6" style="width: 100%;height: 350px;">
+                        <div class="h-100">
+                             <img class="rounded w-100 h-100" src="assets/img/otimizacao.jpg"
+                                            style="object-fit: cover;" alt="">
+                        </div>
+                    </div>                  
+                </div>
+
+            </div>
+            
+        </div>
+
+        <!-- SOBRE DETALHE -->
+        <img class="objetivo-detail" src="assets/img/intro-detail.svg" alt="">
+    </section>
+    <!-- FIM OBJETIVOS -->
+
+    <!-- FAQ -->
+    <section class="bg-secondary objetivo-bg" id="faq">
+        <div class="container px-5 py-5">
+            <div class="d-block">
+                <h1 class="font-l-3 mb-4 text-center text-white "><span class="border-bottom pb-1 border-2 border-primary">Principais Dúvidas</span></h1>
+            </div>
     
+            <div class="faq">
+                <div class="faq-pergunta mb-2">
+                 <button class="d-flex py-3 pe-3 pergunta justify-content-between w-100 align-items-center ps-0"><span class="font-m-b text-white">Quem pode contratar os serviços da Stain?</span><i class="fa-solid fa-angle-down text-white"></i></button> 
+                
+                </div>
+                <div class="faq-resposta ">
+                  
+                <p class="font-m text-primario-2">Empresas de todos os portes e segmentos podem contratar nossos serviços, assim como empreendedores e startups que buscam acelerar seu crescimento e otimizar seus processos.</p>
+                </div>  
+            </div>
+
+            <div class="faq">
+                <div class="faq-pergunta mb-2">
+                 <button class="d-flex py-3 pe-3 pergunta justify-content-between w-100 align-items-center ps-0"><span class="font-m-b text-white">Quais são os diferenciais da Stain?</span><i class="fa-solid fa-angle-down text-white"></i></button> 
+                
+                </div>
+                <div class="faq-resposta">
+                  
+                <p class="font-m text-primario-2">Nosso principal diferencial é a capacidade de oferecer soluções personalizadas e inovadoras, adaptadas a cada cliente. Além disso, prezamos por uma comunicação clara e transparente ao longo de todo o processo.</p>
+                </div>  
+            </div>
+
+            <div class="faq">
+                <div class="faq-pergunta mb-2">
+                 <button class="d-flex py-3 pe-3 pergunta justify-content-between w-100 align-items-center ps-0"><span class="font-m-b text-white">Como posso solicitar um orçamento?</span><i class="fa-solid fa-angle-down text-white"></i></button> 
+                
+                </div>
+                <div class="faq-resposta">
+                  
+                <p class="font-m text-primario-2">Você pode solicitar um orçamento entrando em contato diretamente pelo nosso WhatsApp ou enviando um e-mail para nossa equipe de atendimento. Retornaremos com uma proposta personalizada o mais breve possível.</p>
+                </div>  
+            </div>
+
+        </div>
+        
+        
+        <!-- SOBRE DETALHE -->
+        <img class="sobre-detail h-50 opacity-25" src="assets/img/intro-detail.svg" alt="">
+
+        <!-- SOBRE DETALHE -->
+        <img class="objetivo-detail h-50 opacity-25" src="assets/img/intro-detail.svg" alt="">
+        <!-- <div class="contact-grid contact-container-d container">
+
+            <div class="contact-form-c grid1">
+                <h1 class="black-normal-30">Fale Conosco</h1>
+                <br />
+                <br />
+                <p class="contact-p-area contact-form-p">
+                Para qualquer informação, dúvida ou comentário:
+                </p>
+                <p class="contact-form-p"><i class="fa-solid fa-mobile"></i> (96) 99150-6962</p>
+                <p class="contact-form-p" style="margin-top: -10px;"><i class="fa-solid fa-envelope"></i> comercial@geliocomercial.com</p>
+                <span class="contact-line"></span>
+
+                <form class="contact-form-all">
+                <h2 class="black-normal-20">Nome:</h2>
+                <input type="text" class="input-large" required/>
+
+                <h2 class="black-normal-20" style="margin-top: 10px;">Telefone:</h2>
+                <input type="text" class="input-large" required/>
+
+                <h2 class="black-normal-20" style="margin-top: 10px;">Mensagem:</h2>
+                <textarea name="Message" class="textarea" required style="resize: none; padding: 10px" placeholder="Descreva sua requisição"></textarea>
+                <br>
+                <button class="contact-button">Enviar</button>
+                </form>
+            </div>
+
+            <div class="contact-escritorios grid2">
+                <h1 class="black-normal-30">Escritório</h1>
+                <br>
+                <div>
+                <h2 class="black-normal-20">Brasil</h2>
+                <p class="contact-form-p">AV. Caramuru, nº 1293 A, Box 03<br>
+                    Buritizal | Macapá, AP, 68902-863</p>
+                <br>
+                </div>
+            </div>
+            
+        </div> -->
+    </section>
+    <!-- FIM FAQ -->
+
+    <!-- CONTATO -->
+    <section class="bg-white" id="contato">
+        <div class="content container px-4 px-lg-5 align-items-center">
+
+            <div class="row g-4 fadeInUp objetivo align-items-center justify-content-center gap-3">
+
+                <div class="col-lg-5 mt-4 text-left">
+                    
+                    <h1 class="font-xl">Entre em contato <span class="marker-primary-2">conosco</span>!</h1>
+                        
+                </div>
+
+                <div class="col-lg-5 mt-4 text-left">
+                    
+                    <h1 class="font-l-2 mb-4"><strong>Venha transformar seu negócio com soluções personalizadas.</strong></h1>
+                    <p class="font-m">Entre em contato agora e descubra como podemos otimizar seus processos e alcançar resultados surpreendentes!</p>
+
+                <div class="d-flex align-items-center gap-4 mt-4">
+                    
+                    <a class="nav-link d-flex align-items-center" style="cursor: pointer;">
+                        <i class="fa-brands fa-whatsapp fs-2 me-2"></i>
+                        <span class="font-l"><strong>WhatsApp</strong></span>
+                    </a>
+
+                    <a class="nav-link font-m d-flex align-items-center border-start border-primary border-2" style="cursor: pointer;">
+                        <i class="fa-solid fa-phone-volume fs-2 ms-4 me-2"></i>
+                        <span class="font-m">Telefone:<br> 
+                            <span class="font-p"><strong>(00) 99999-9999</strong></span>
+                        </span>
+                    </a>
+                </div>
+     
+                </div>
+
+            </div>
+
+            <!-- SOBRE DETALHE -->
+            <img class="sobre-detail" src="assets/img/intro-detail.svg" alt="">
+
+        </div>
+    </section>
+    <!-- FIM CONTATO -->
+    
+
+
+    <!-- MENU LATERAL -->
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasRightLabel"></h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+
+        <div class="offcanvas-body">
+          <img src="assets/img/stain-logo.svg" alt="">
+            
+          <p style="margin-top: 40px;" class="text-black-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam rutrum lorem vel nibh mattis, non consequat ex aliquet.</p>
+
+            <div class="offcanvas-content">  
+                <div>
+                        <strong>Localização</strong>
+                        <p>Rio de Janeiro</p>
+                    </div>
+
+                    <div>
+                        <strong>Email</strong>
+                        <p>email@stain.com</p>
+                    </div>
+
+                    <div>
+                        <strong>Telefone</strong>
+                        <p>(00) 99999-9999</p>
+                    </div>
+            </div>
+
+            <div class="offcanvas-social">
+                <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+
+        </div>
+    </div>
+    <!-- FIM MENU LATERAL -->
+
+
+    <script>
+        $(document).ready(function() {
+              $(".pergunta").on("click", function() {
+                  var $faqResposta = $(this).closest(".faq").find(".faq-resposta");
+                  $faqResposta.slideToggle("slow");
+                  $(this).find("i").toggleClass("fa-angle-up");
+              });
+          });
+      </script>
+
     <script src="https://unpkg.com/scrollreveal"></script>
     <script src="./js/reveal.js"></script>
 

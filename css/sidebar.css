@@ -29,17 +29,17 @@
 }
 
 
-@media (max-width:993px){
+@media (max-width:994px){
     .offcanvas-content{
-        display: flex;
-        flex-direction: row;
-        margin-top: 10px;
-        border-left: none;
-        padding-left: none;
+        display: none;
     }
 
     .offcanvas-body {
         padding: 0;
+    }
+
+    .offcanvas-social{
+        display: none;
     }
 }
 
