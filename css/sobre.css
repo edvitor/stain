@@ -33,3 +33,11 @@
         display: none;
     }
 }
+
+@media (max-width: 320px){
+    .intro-detail,
+    .sobre-detail,
+    .objetivo-detail{
+        display: none;
+    }
+}
