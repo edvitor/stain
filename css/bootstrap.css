@@ -11460,7 +11460,7 @@ hr.divider-light {
   color: var(--primaria);
 }
 #mainNav .navbar-nav .nav-item .nav-link.active {
-  color: #B98A58 !important;
+  color: var(--primaria) !important;
 }
 @media (min-width: 992px) {
   #mainNav {

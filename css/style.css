@@ -8,9 +8,9 @@
 @import url(faq.css);
 
 :root{  
-    --primaria: #B98A58;
-    --primaria-2: #E6D0B2; 
-    --primaria-3: #90673C;
+    --primaria: #5882B9;
+    --primaria-2: #B2C9E6; 
+    --primaria-3: #3C6090;
 
 }
 
@@ -39,7 +39,7 @@
 }
 
 body{
-    background-color: #F9F8F6 !important;
+    background-color: #F6F7F9 !important;
     font-family: 'Inter', sans-serif !important;
 }
 
@@ -47,7 +47,9 @@ a{
     text-decoration: none;
 }
 
-.reveal-txt, .reveal-img{
+.reveal-txt, 
+.reveal-img,
+.reveal-contact{
     visibility: hidden;
 }
 

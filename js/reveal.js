@@ -10,3 +10,10 @@ revelar.reveal('.reveal-img',{
     distance: '90px',
     delay: 500
 })
+
+
+revelar.reveal('.reveal-contact',{
+    duration: 2000,
+    distance: '90px',
+    delay: 600
+})
