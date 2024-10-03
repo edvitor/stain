@@ -54,6 +54,28 @@
     margin-left: 5px;
 }
 
+.autoplay-carrossel{
+    background: var(--primaria-2);
+    transition: 0.5s;
+
+}
+
+.autoplay-carrossel:hover{
+    background: var(--primaria);
+}
+
+.autoplay-carrossel:active{
+    background: var(--primaria-3);
+}
+
+
+.autoplay-carrossel img{
+    width: 300px;
+    height: auto;
+    margin: 0 auto;
+}
+
+
 /* SLICK JS */
 
 .slick-track{
@@ -90,3 +112,21 @@ padding: 0 15px;
     color: #fff !important; /* Cor da bolinha ativa */
     opacity: 1; /* Transparência da bolinha ativa */
   }
+
+@media (max-width:470px){
+    .autoplay-carrossel img{
+        width: 250px;
+    }
+}
+
+@media (max-width:440px){
+    .autoplay-carrossel img{
+        width: 200px;
+    }
+}
+
+@media (max-width:375px){
+    .autoplay-carrossel img{
+        width: 200px;
+    }
+}
