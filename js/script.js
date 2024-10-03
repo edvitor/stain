@@ -74,8 +74,8 @@ window.addEventListener('DOMContentLoaded', event => {
     slidesToShow: 3,
     slidesToScroll: 1,
     autoplay: true,
+    swipe: false,
     touchMove: false,
-    infinite: true,
     autoplaySpeed: 1500,
     responsive: [
         {
@@ -84,7 +84,6 @@ window.addEventListener('DOMContentLoaded', event => {
               slidesToShow: 2,
               dots: false,
               arrows: false,
-              centerPadding: '30px'
             }
           },
         
@@ -94,7 +93,6 @@ window.addEventListener('DOMContentLoaded', event => {
               slidesToShow: 1,
               dots: false,
               arrows: false,
-              centerPadding: '30px'
             }
           }
       ]
