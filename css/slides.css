@@ -61,7 +61,6 @@
     cursor: pointer;
     background: var(--primaria);
     transition: 0.5s;
-
 }
 
 .autoplay-carrossel:hover{
