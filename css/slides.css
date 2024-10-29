@@ -19,15 +19,10 @@
 }
 
 .case-item{
-    height: 260px;
+    height: 300px;
     border-radius: 4px;
     background-color: #fff;
     padding: 20px
-}
-
-.case-item img{
-    width: 200px;
-    height: auto;
 }
 
 .case-slide{
@@ -133,6 +128,29 @@ padding: 0 15px;
     opacity: 1; /* Transparência da bolinha ativa */
   }
 
+  @media (max-width:768px){
+    .cases-titulo{
+        justify-content: center;
+    }
+  }
+
+  @media (max-width:580px){
+    .slick-arrow{
+      margin: 0 0.8rem;
+    }
+     .slick-prev{
+      left: -6px !important;
+      z-index: 1000;
+     }
+     .slick-next{
+      right: -6px !important;
+      z-index: 1000;
+     }
+  }
+  
+
+
+
 @media (max-width:470px){
     .autoplay-carrossel img{
         width: 250px;
@@ -146,7 +164,12 @@ padding: 0 15px;
 }
 
 @media (max-width:375px){
+
+    .cases-btn{
+        padding: 2px 5px;
+    }
+
     .autoplay-carrossel img{
-        width: 200px;
+        width: 160px;
     }
 }

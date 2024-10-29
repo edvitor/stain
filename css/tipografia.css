@@ -95,6 +95,12 @@
     .font-m-b{
         font-size: 0.9rem;
     }
+    .font-pp{
+        font-size: 12px;
+    }
+    .font-xpp{
+        font-size: 10px;
+    }
 }
 
 @media (max-width:375px){
@@ -112,6 +118,9 @@
 @media (max-width:320px){
     .font-xxl{
         font-size: 2.2rem !important;
+    }
+    .font-xl{
+        font-size: 2.3rem;
     }
     .font-l-3{
         font-size: 1.5rem !important;
