@@ -51,19 +51,21 @@ window.addEventListener('DOMContentLoaded', event => {
 
 
   $('.slider-nav').slick({
-    slidesToShow: 3,
     slidesToScroll: 1,
     dots: true,
     centerMode: true,
     centerPadding: '60px',
-    focusOnSelect: true,
+    slidesToShow: 3,
+    prevArrow: '<button type="button" class="slick-prev"><i class="fa-solid fa-angle-left"></i></button>',
+    nextArrow: '<button type="button" class="slick-next"><i class="fa-solid fa-angle-right"></i></i></button>',
+    // focusOnSelect: true,
     responsive: [
         {
             breakpoint: 993,
             settings: {
               slidesToShow: 1,
-              dots: false,
-              arrows: false,
+              dots: true,
+              arrows: true,
               centerPadding: '30px'
             }
           }

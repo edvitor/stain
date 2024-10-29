@@ -55,13 +55,17 @@
 }
 
 .autoplay-carrossel{
-    background: var(--primaria-2);
+    display: flex;
+    align-items: center;
+    height: 160px;
+    cursor: pointer;
+    background: var(--primaria);
     transition: 0.5s;
 
 }
 
 .autoplay-carrossel:hover{
-    background: var(--primaria);
+    background: var(--primaria-2);
 }
 
 .autoplay-carrossel:active{
@@ -98,6 +102,23 @@ z-index: 1;
   
 .slick-list {
 padding: 0 15px;
+}
+
+
+.slick-prev::before,
+.slick-next::before  {
+  content: "" !important;
+}
+
+.slick-prev, .slick-next {
+  font-size: 0;
+  background: none;
+  border: none;
+}
+
+.slick-prev i, .slick-next i {
+  font-size: 1.5rem;
+  color: var(--primaria);
 }
 
 

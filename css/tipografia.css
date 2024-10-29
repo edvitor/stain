@@ -71,6 +71,14 @@
     line-height: normal;
 }
 
+.font-xpp{
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
 @media (max-width:993px){
     .font-xxl{
         font-size: 3.5rem !important;
