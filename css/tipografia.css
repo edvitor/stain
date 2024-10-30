@@ -98,9 +98,6 @@
     .font-pp{
         font-size: 12px;
     }
-    .font-xpp{
-        font-size: 10px;
-    }
 }
 
 @media (max-width:375px){
@@ -112,6 +109,9 @@
     }
     .font-m{
         font-size: 0.9rem;
+    }
+    .font-xpp{
+        font-size: 10px;
     }
 }
 
